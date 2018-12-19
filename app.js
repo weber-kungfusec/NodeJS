@@ -3,7 +3,7 @@ var http = require('http');
 var server = http.createServer(function(request, response) {
 
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("CloudSec team - column 1 !!! -- CloudSec team - column 2 !!!");
+    response.end("CloudSec team - column 1 !");
     
 });
 
